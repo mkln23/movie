@@ -21,7 +21,13 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <Card movie="Inception" dir="Christopher Nolan" genre="Sci-fi" link="https://www.imdb.com/title/tt1375666/"/>
+    <>
+    <div className="nav">
+      <div className="nav_txt">Movies that I like</div>
+    </div>
+    <Card movie="Inception" dir="Christopher Nolan" genre="Sci-fi" pic="./images/inception.jpg" link="https://www.imdb.com/title/tt1375666/"/>
+    <Card movie="Edge Of Tomorrow" dir="Doug Liman" genre="Sci-fi" pic="./images/eot.jpg" link="https://www.imdb.com/title/tt1631867/"/>
+    </>
     );
 }
 
