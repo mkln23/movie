@@ -7,23 +7,25 @@ import './images/eot.jpg';
 // // import inception from './images/inception.jpg';
 // // import picChoose from './MoviePic';
 
-function pic(movie){
-  var path;
-  switch(movie){
-      case "Inception":{ path="./images/inception.jpg"; break; }
-      case "Edge Of Tomorrow":{ path="./images/eot.jpg"; break; }
-         default : {path="";break;}
-  }
-  return path;
-}
+// function pic(movie){
+//   var path;
+//   switch(movie){
+//       case "Inception":{ path="./images/inception.jpg"; break; }
+//       case "Edge Of Tomorrow":{ path="./images/eot.jpg"; break; }
+//          default : {path="";break;}
+//   }
+//   return path;
+// }
+
+
 
 function Card(props){
     return (
         <>
   <div className="movie">
     <div className="col">
-      <div className="image">
-        <img src= {pic(props.movie)} alt="Movie" />
+      <div id="image">
+        {/* <img src= {pic(props.movie)} alt="Movie" /> */}
       </div>
     </div>
     <div className="col">
@@ -48,6 +50,13 @@ function Card(props){
   </div>
 </>
     )
+}
+
+function insertPic(props){
+  var pic=document.createElement("img");
+  pic.setAttribute("src",props.pic);
+  document.getElementById("image").appendChild(pic)
+  return (<></>);
 }
 
 export default Card;

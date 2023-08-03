@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Card from './MovieDet';
+import insertPic from'./MovieDet';
 import './MovieDet.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <div className="nav_txt">Movies that I like</div>
     </div>
     <Card movie="Inception" dir="Christopher Nolan" genre="Sci-fi" pic="./images/inception.jpg" link="https://www.imdb.com/title/tt1375666/"/>
+    <insertPic pic="./images/inception.jpg"/>
     <Card movie="Edge Of Tomorrow" dir="Doug Liman" genre="Sci-fi" pic="./images/eot.jpg" link="https://www.imdb.com/title/tt1631867/"/>
     </>
     );
