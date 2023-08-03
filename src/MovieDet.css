@@ -1,0 +1,47 @@
+.nav{
+    /* overflow: hidden; */
+    /* position: fixed; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+.nav_txt{
+    background-color: #fff;
+}
+
+*{
+    background-color: #282c34;
+    margin: 0;
+    /* font-family: 'Comfortaa', cursive */
+}
+
+.movie{
+    display: flex;
+    color: #fff;
+}
+
+img{
+    width: 120px;
+    border-radius: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+.bold{
+    font-weight: 700;
+}
+a{
+    color: #61dafb;
+}
