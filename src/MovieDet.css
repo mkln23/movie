@@ -1,24 +1,25 @@
 .nav{
-    /* overflow: hidden; */
-    /* position: fixed; */
     width: 100%;
     height: 50px;
     display: flex;
     background: #fff;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 
 .nav_txt{
     background-color: #fff;
+    font-style: oblique;
+    font-weight: 400;
+    margin-left: 10px;
 }
 
 *{
     background-color: #282c34;
     margin: 0;
-    /* font-family: 'Comfortaa', cursive */
 }
 
 .movie{
@@ -28,7 +29,9 @@
 
 img{
     width: 120px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .col{
@@ -38,6 +41,8 @@ img{
 
 .row{
     display: flex;
+    padding: 5px;
+    margin-top: 5px;
 }
 .bold{
     font-weight: 700;

@@ -1,34 +1,14 @@
-// import logo from './logo.svg';
-// import './App.css';
 import Card from './MovieDet';
-import insertPic from'./MovieDet';
 import './MovieDet.css';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn Reac
-    //     </a>
-    //   </header>
-    // </div>
     <>
     <div className="nav">
       <div className="nav_txt">Movies that I like</div>
     </div>
-    <Card movie="Inception" dir="Christopher Nolan" genre="Sci-fi" pic="./images/inception.jpg" link="https://www.imdb.com/title/tt1375666/"/>
-    <insertPic pic="./images/inception.jpg"/>
-    <Card movie="Edge Of Tomorrow" dir="Doug Liman" genre="Sci-fi" pic="./images/eot.jpg" link="https://www.imdb.com/title/tt1631867/"/>
+    <Card movie="Inception" dir="Christopher Nolan" yr="(2014)" genre="Sci-fi" pic="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg" link="https://www.imdb.com/title/tt1375666/"/>
+    <Card movie="Edge Of Tomorrow" dir="Doug Liman" yr="(2014)" genre="Sci-fi" pic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq-uYPkMBwR3839SeocPELr1oab2QiU2UkeA&usqp=CAU" link="https://www.imdb.com/title/tt1631867/"/>
     </>
     );
 }
